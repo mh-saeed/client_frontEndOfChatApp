@@ -8,7 +8,7 @@ const TextContainer = ({ users }) => (
   <div className="textContainer">
     <div>
       <h1>
-        Realtime Chat Application{" "}
+        SOCA - Secure Online Chat App {" "}
         <span role="img" aria-label="emoji">
           💬
         </span>
@@ -20,9 +20,9 @@ const TextContainer = ({ users }) => (
         </span>
       </h2>
       <h2>
-        Try it out right now!{" "}
+        with E2E Encryption using AES-256 Algorithm{" "}
         <span role="img" aria-label="emoji">
-          ⬅️
+          🔐
         </span>
       </h2>
     </div>
