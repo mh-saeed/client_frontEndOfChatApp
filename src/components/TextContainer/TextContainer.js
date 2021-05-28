@@ -19,12 +19,12 @@ const TextContainer = ({ users }) => (
           ❤️
         </span>
       </h2>
-      <h2>
+      <h3>
         with E2E Encryption using AES-256 Algorithm{" "}
         <span role="img" aria-label="emoji">
           🔐
         </span>
-      </h2>
+      </h3>
     </div>
     {users ? (
       <div>
