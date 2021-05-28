@@ -12,7 +12,10 @@ export const DoDecrypt = (cipher, username) => {
     return cipher;
   }
 
-  if (cipher.startsWith(username)) {
+ /*  if (cipher.startsWith(username)) {
+    return cipher;
+  } */
+  if (username==="admin") {
     return cipher;
   }
 
