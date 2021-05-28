@@ -55,6 +55,7 @@ const Chat = ({ location }) => {
     socket.on("roomData", ({ users }) => {
       setUsers(users);
     });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const sendMessage = (event) => {
