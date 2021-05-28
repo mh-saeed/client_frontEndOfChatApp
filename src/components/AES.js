@@ -15,7 +15,8 @@ export const DoDecrypt = (cipher, username) => {
  /*  if (cipher.startsWith(username)) {
     return cipher;
   } */
-  if (username==="admin") {
+  // eslint-disable-next-line eqeqeq
+  if (username=="admin") {
     return cipher;
   }
 
