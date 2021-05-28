@@ -13,18 +13,18 @@ const TextContainer = ({ users }) => (
           💬
         </span>
       </h1>
-      <h2>
+      <h3>
         Created with React, Express, Node and Socket.IO{" "}
         <span role="img" aria-label="emoji">
           ❤️
         </span>
-      </h2>
-      <h4>
+      </h3>
+      <h3>
         with E2E Encryption using AES-256 Algorithm{" "}
         <span role="img" aria-label="emoji">
           🔐
         </span>
-      </h4>
+      </h3>
     </div>
     {users ? (
       <div>
