@@ -42,8 +42,10 @@ const Chat = ({ location }) => {
   useEffect(() => {
     socket.on("message", (message) => {
       console.log(message); 
-      //decypt
-       const ans = DoDecrypt(message.text, message.user);
+
+      //-------------------decypt------------------------
+      
+      const ans = DoDecrypt(message.text, message.user);
        let temp = messages;
       temp.push({
         user: message.user,
@@ -62,6 +64,10 @@ const Chat = ({ location }) => {
     event.preventDefault();
 
     if (message) {
+
+      //-------------------ecypt------------------------
+
+
       const ans = DoEncrypt(message);//encryption
 
       socket.emit("sendMessage", ans, () => setMessage(""));
