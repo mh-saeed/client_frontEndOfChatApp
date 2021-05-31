@@ -8,13 +8,7 @@ export const DoEncrypt = (text) => {
 };
 
 export const DoDecrypt = (cipher, username) => {
-  if (cipher.startsWith("Welcome")) {
-    return cipher;
-  }
 
- /*  if (cipher.startsWith(username)) {
-    return cipher;
-  } */
   // eslint-disable-next-line eqeqeq
   if (username=="admin") {
     return cipher;
