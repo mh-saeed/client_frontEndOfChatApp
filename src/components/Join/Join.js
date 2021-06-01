@@ -17,14 +17,7 @@ export default function SignIn() {
             className="joinInput"
             type="text"
             onChange={(event) => {
-              if (
-                event.target.value === "Admin" ||
-                event.target.value === "admin"
-              ) {
-                alert('Invalid Name!')
-              } else {
-                setName(event.target.value);
-              }
+              setName(event.target.value);
             }}
           />
         </div>
@@ -37,7 +30,7 @@ export default function SignIn() {
           />
         </div>
         <Link
-          onClick={(e) => (!name || !room ? e.preventDefault() : null)}
+          onClick={(e) => ((!name||(name!=='admin'||name!=='Admin')) || !room ? e.preventDefault() : null)}
           to={`/chat?name=${name}&room=${room}`}
         >
           <button className={"button mt-20"} type="submit">
