@@ -3,14 +3,14 @@
 
 ![UI](https://github.com/mh-saeed/client_frontEndOfChatApp/blob/master/src/icons/UI_img.jpg?raw=true)
 
-## `Install SOCA locally in your pc ?`
+## `Install SOCA locally in your pc`
 ### `Prerequisite`
 Node.js must be installed in your PC, to install nodejs [visit](https://nodejs.org/en/).
 
-After installing nodejs, follow the below instructions⬇️.
+After installing nodejs, follow the below instructions ⬇️.
 
 Create an empty folder, name chat-app.
-clone both, [client-Side](https://github.com/mh-saeed/client_frontEndOfChatApp) and [Server-side](https://github.com/mh-saeed/server_BackEndOfChatApp/) in the chat-app folder.
+clone both, [client-side](https://github.com/mh-saeed/client_frontEndOfChatApp) and [server-side](https://github.com/mh-saeed/server_BackEndOfChatApp/) in the chat-app folder.
 now open client-side repository folder with terminal, and run the below command:
 
     npm install
@@ -24,7 +24,7 @@ and comment out line: 14 and uncomment line: 15
 
 ![code](https://github.com/mh-saeed/client_frontEndOfChatApp/blob/master/src/icons/code.png?raw=true)
 
-then, open the server folder and open index.js and then at line:15 change the or origins to 'http://localhost:3000/'
+then, open the server folder and open index.js and then at line:15 change the origins to 'http://localhost:3000/'
 
 ![code2](https://github.com/mh-saeed/client_frontEndOfChatApp/blob/master/src/icons/code2.png?raw=true)
 
@@ -40,7 +40,7 @@ then open client folder in your terminal and run:
 
      npm start
 
-now your application must be running on 'http://localhost:3000/', Go and test the app 😃.
+now our application must be running on 'http://localhost:3000/', Go and test the app 😃.
 
 ## `THE END`
 
