@@ -22,10 +22,10 @@ and then, open server-side repository folder with terminal, and run the below co
 Now, open the chat-app folder in your code editor and in client folder open chat component(Path: src/components/Chat/Chat.js).
 and comment out line: 14 and uncomment line: 15
 
-![code]()
+![code](https://github.com/mh-saeed/client_frontEndOfChatApp/blob/master/src/icons/code.png?raw=true)
 
 then, open the server folder and open index.js and then at line:15 change the or origins to 'http://localhost:3000/'
 
-![code2]()
+![code2](https://github.com/mh-saeed/client_frontEndOfChatApp/blob/master/src/icons/code2.png?raw=true)
 
 
