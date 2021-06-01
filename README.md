@@ -3,7 +3,7 @@
 
 ![UI](https://github.com/mh-saeed/client_frontEndOfChatApp/blob/master/src/icons/UI_img.jpg?raw=true)
 
-## `How to install SOCA locally in your pc`
+## `Install SOCA locally in your pc ?`
 ### `Prerequisite`
 Node.js must be installed in your PC, to install nodejs [visit](https://nodejs.org/en/).
 
@@ -28,4 +28,19 @@ then, open the server folder and open index.js and then at line:15 change the or
 
 ![code2](https://github.com/mh-saeed/client_frontEndOfChatApp/blob/master/src/icons/code2.png?raw=true)
 
+Now you can start the app 🙂.
+### `Start app`
+
+First we have to start our server.
+open server folder in your terminal and run:
+
+     npm start
+
+then open client folder in your terminal and run:
+
+     npm start
+
+now your application must be running on 'http://localhost:3000/', Go and test the app 😃.
+
+## `THE END`
 
