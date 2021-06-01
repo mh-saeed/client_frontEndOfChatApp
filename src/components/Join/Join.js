@@ -21,6 +21,7 @@ export default function SignIn() {
                 event.target.value === "Admin" ||
                 event.target.value === "admin"
               ) {
+                alert.apply('Invalid Name!')
               } else {
                 setName(event.target.value);
               }
