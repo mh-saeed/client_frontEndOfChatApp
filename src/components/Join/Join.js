@@ -16,7 +16,15 @@ export default function SignIn() {
             placeholder="Name"
             className="joinInput"
             type="text"
-            onChange={(event) => setName(event.target.value)}
+            onChange={(event) => {
+              if (
+                event.target.value === "Admin" ||
+                event.target.value === "admin"
+              ) {
+              } else {
+                setName(event.target.value);
+              }
+            }}
           />
         </div>
         <div>
