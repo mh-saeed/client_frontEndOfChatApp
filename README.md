@@ -11,5 +11,6 @@ Node.js must be installed in your PC, to install nodejs [visit](https://nodejs.o
 Create an empty folder, name chat-app.
 clone both, [client-Side](https://github.com/mh-saeed/client_frontEndOfChatApp) and [Server-side](https://github.com/mh-saeed/server_BackEndOfChatApp/) in the chat-app folder.
 now open client repository folder with terminal, and run the below command:
- npm install
+
+    npm install
 
