@@ -3,7 +3,7 @@
 
 ![UI](https://github.com/mh-saeed/client_frontEndOfChatApp/blob/master/src/icons/UI_img.jpg?raw=true)
 
-## `How to install locally in your pc`
+## `How to install SOCA locally in your pc`
 ### `Prerequisite`
 Node.js must be installed in your PC, to install nodejs [visit](https://nodejs.org/en/).
 
