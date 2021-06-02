@@ -32,7 +32,7 @@ const Chat = ({ location }) => {
       "timeout" : 10000,                  
       "transports" : ["websocket"]
   };
-  this.socket = io.connect(ENDPOINT,connectionOptions);
+  socket = io.connect(ENDPOINT,connectionOptions);
     // socket = io.connect(ENDPOINT,{ transports: ['websocket', 'polling', 'flashsocket'] });
 
     setRoom(room);
