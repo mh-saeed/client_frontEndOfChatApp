@@ -33,6 +33,7 @@ const Chat = ({ location }) => {
 
     socket.emit("join", { name, room }, (error) => {
       if (error) {
+        window.location = "https://mh-saeed-chat.netlify.app/";
         alert(error);
       }
     });
