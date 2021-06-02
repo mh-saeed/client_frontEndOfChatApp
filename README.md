@@ -1,4 +1,5 @@
 # A Secure Online Chat App - (SOCA)
+Give a 🌟, if you like the app.
 ## [Live Site](https://mh-saeed-chat.netlify.app/)  |  [Server-side source code ](https://github.com/mh-saeed/server_BackEndOfChatApp/)
 
 ![UI](https://github.com/mh-saeed/client_frontEndOfChatApp/blob/master/src/icons/UI_img.jpg?raw=true)
