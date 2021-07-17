@@ -44,7 +44,7 @@ const Chat = ({ location }) => {
     socket.on("message", (message) => {
       console.log(message); 
 
-      //-------------------decypt------------------------
+      //-------------------decrypt------------------------
       
       const ans = DoDecrypt(message.text, message.user);
        let temp = messages;
@@ -66,7 +66,7 @@ const Chat = ({ location }) => {
 
     if (message) {
 
-      //-------------------ecypt------------------------
+      //-------------------encrypt------------------------
 
 
       const ans = DoEncrypt(message);//encryption
