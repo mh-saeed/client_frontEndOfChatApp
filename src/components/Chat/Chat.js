@@ -42,7 +42,7 @@ const Chat = ({ location }) => {
 
   useEffect(() => {
     socket.on("message", (message) => {
-      console.log(message); 
+      // console.log(message); 
 
       //-------------------decrypt------------------------
       
