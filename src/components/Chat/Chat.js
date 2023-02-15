@@ -11,7 +11,7 @@ import Input from "../Input/Input";
 
 import "./Chat.css";
 
-const ENDPOINT = 'https://mh-saeed-chat-app.herokuapp.com/';
+const ENDPOINT = 'https://soca-backend.onrender.com/';
 // const ENDPOINT = "http://localhost:5000/";
 
 let socket;
