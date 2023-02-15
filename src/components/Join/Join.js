@@ -7,15 +7,6 @@ export default function SignIn() {
   const [name, setName] = useState("");
   const [room, setRoom] = useState("");
 
-  useEffect(() => {
-    async function startServer() {
-      const response = await fetch('https://mh-saeed-chat-app.herokuapp.com/');
-      const data = await response.json();
-      console.log(data);
-    }
-    startServer();
-  },[]);
-
   return (
     <div className="joinOuterContainer">
       <div className="joinInnerContainer">
