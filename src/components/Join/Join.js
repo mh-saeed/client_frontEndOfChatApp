@@ -9,7 +9,7 @@ export default function SignIn() {
   
   useEffect(() => {
     async function startServer() {
-      const response = await fetch('https://mh-saeed-chat-app.herokuapp.com/');
+      const response = await fetch('https://soca-backend.onrender.com/');
       const data = await response.json();
       console.log(data);
     }
